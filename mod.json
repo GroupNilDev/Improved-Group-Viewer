@@ -1,0 +1,42 @@
+{
+	"geode": "5.5.3",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+},
+	"id": "groupnil.fixedimproved_group_view",
+	"name": "Improved Group Viewing",
+	"version": "v1.21.1",
+	"developer": "GroupNil",
+	"description": "Allows you to scroll in the Groups Editor! COMPLETLY REMADE IMPROVED GROUP VIEW BECAUSE I COULDNT FIX IT FOR A FRIEND OK? Made for Tilkino",
+	"links": {
+		"homepage": "https://youtube.com/@groupnilmc",
+		"source": "https://github.com/GroupNilDev/ImprovedGroupViewing",
+		"community": "https://groupnildev.github.io/website-saying-none-for-people-building-geode-mods-if-they-dont-have-a-community/"
+	},
+	"dependencies": [
+        {
+            "id": "geode.node-ids",
+            "version": ">=v1.23.3",
+            "importance": "required"
+        }
+    ],
+	"api": {
+		"include": [
+			"api/*.hpp"
+		]
+	},
+	"settings": {
+		"left-align": {
+            "name": "Left Align Groups",
+			"description": "Align groups to the left like vanilla GD",
+            "type": "bool",
+            "default": false
+        }
+	},
+	"tags": [
+		"editor", "enhancement"
+	]
+}
